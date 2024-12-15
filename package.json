@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "server": "nodemon backend/server.js",
+    "dev": "cd frontend && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
